@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
 
     // ? MENU HAMBÚRGUER
     const toggle = document.querySelector('.menu-toggle');
@@ -145,12 +145,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ? Ajustar posição sticky do nav abaixo do header
-    window.addEventListener('load', () => {
+    const updateNavOffset = () => {
         const header = document.querySelector('.site-header');
         const nav = document.querySelector('nav');
         if (header && nav) {
-            const headerHeight = header.offsetHeight;
+            const headerHeight = header.getBoundingClientRect().height;
             nav.style.top = headerHeight + 'px';
         }
-    });
+    };
+
+    updateNavOffset();
+    window.addEventListener('load', updateNavOffset);
+    window.addEventListener('resize', updateNavOffset);
 });

@@ -1,163 +1,5 @@
 @charset "UTF-8";
 
-/*todo -MOBILE (até 480px) */
-
-@media (max-width: 480px) {
-    .menu-toggle {
-        display: block;
-        font-size: 24px;
-        padding: 8px 12px;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        gap: 0;
-        width: 100%;
-    }
-
-    .nav-links.open {
-        display: flex;
-    }
-
-    nav {
-        padding: 10px;
-    }
-
-    nav a {
-        font-size: 14px;
-        padding: 12px 15px;
-    }
-
-    main {
-        padding: 15px 5px;
-    }
-
-    .caixa {
-        width: 100%;
-        max-width: 280px;
-        height: auto;
-    }
-
-    .img-container {
-        height: 200px;
-    }
-
-    figcaption {
-        font-size: 16px;
-        padding: 10px;
-    }
-
-    .depoimentos {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 40px 10px;
-    }
-
-    .depoimento p {
-        font-size: 14px;
-    }
-
-    .depoimento .autor {
-        font-size: 13px;
-    }
-
-    .news {
-        background: linear-gradient(90deg, var(--cor2), var(--cor3), var(--cor4));
-        border-radius: 14px;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
-        max-width: 700px;
-        margin: 48px auto;
-        padding: 24px 16px;
-        text-align: center;
-    }
-
-    .news-msg {
-        max-width: 400px;
-        padding: 12px 16px;
-        font-size: 14px;
-    }
-
-    footer {
-        background: linear-gradient(90deg, var(--cor2), var(--cor3), var(--cor4));
-        border-radius: 14px 14px 0 0;
-        box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.07);
-        max-width: 700px;
-        margin: 48px auto 0 auto;
-        padding: 20px 16px;
-    }
-
-    footer p {
-        font-size: 14px;
-        padding: 8px 0;
-        margin: 0;
-    }
-
-
-    .back-to-top {
-        display: none !important;
-    }
-
-
-    .sobre-nos {
-        padding: 30px 10px;
-    }
-
-    .sobre-text h3 {
-        font-size: 20px;
-    }
-
-    .sobre-text p {
-        font-size: 14px;
-    }
-
-    .card-item {
-        padding: 15px 10px;
-        max-width: 100%;
-    }
-
-    .card-icon {
-        font-size: 40px;
-    }
-
-    .card-item h4 {
-        font-size: 16px;
-    }
-
-    .card-item p {
-        font-size: 12px;
-    }
-
-    .modal-content {
-        max-width: 90%;
-        padding: 30px 15px;
-    }
-
-    .modal-body h3 {
-        font-size: 24px;
-    }
-
-    .modal-body p {
-        font-size: 15px;
-    }
-
-    .caixa:hover {
-        transform: scale(1.05);
-    }
-
-    .galeria-info {
-        width: calc(100% - 20px);
-        padding: 18px 10px;
-        max-width: 600px;
-    }
-
-    .galeria-info p {
-        font-size: 16px;
-    }
-}
-
-/*todo -TABLET RETRATO (481px - 768px) */
-
 @media (min-width: 481px) and (max-width: 768px) {
     h1 {
         font-size: 32px;
@@ -639,6 +481,10 @@
         margin: 0;
     }
 
+    .back-to-top {
+        display: block;
+    }
+
     .sobre-nos {
         padding: 60px 40px;
     }
@@ -838,6 +684,10 @@
         margin: 0;
     }
 
+    .back-to-top {
+        display: block;
+    }
+
     .sobre-nos {
         padding: 80px 60px;
     }
@@ -1016,6 +866,10 @@
         margin: 0;
     }
 
+    .back-to-top {
+        display: block;
+    }
+
     .sobre-nos {
         padding: 100px 80px;
     }
@@ -1078,3 +932,4 @@
         font-size: 26px;
     }
 }
+
