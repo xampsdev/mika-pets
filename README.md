@@ -6,6 +6,12 @@ O projeto apresenta informações sobre a empresa, galeria interativa de pets, d
 
 ---
 
+# Preview
+
+![preview do projeto](./previa-gif/mika-pets.gif)
+
+---
+
 # Objetivo do Projeto
 
 - Apresentar os serviços da MIKA PETS de forma clara e confiável  
