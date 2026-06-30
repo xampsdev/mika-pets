@@ -1,6 +1,6 @@
 ﻿document.addEventListener('DOMContentLoaded', () => {
 
-    // ? MENU HAMBÚRGUER
+    // MENU HAMBÚRGUER
     const toggle = document.querySelector('.menu-toggle');
     const menu = document.querySelector('.nav-links');
 
