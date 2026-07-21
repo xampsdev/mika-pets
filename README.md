@@ -152,7 +152,7 @@ Este projeto foi desenvolvido para praticar e demonstrar conhecimentos em:
 
 Desenvolvido por **XAN**.
 
-[GitHub]([https://github.com/alexandrexan](https://github.com/xampsdev))
+[GitHub](https://github.com/xampsdev)
 
 ---
 
